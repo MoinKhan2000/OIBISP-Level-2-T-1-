@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+    height: 60px;
+    font-size: 20px;
+    background: linear-gradient(to right, #b3b3b3, #1bd5ff);
+    border-radius: 10px;
+    margin: 5px;
+    color: black;
+    padding: 12px;
+    font-weight: bold;
+    pointer-events: none;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    font-size: 20px;
+    width: 60px;
+    height: 50px;
+    border-radius: 20px;
+    border-width: 4px;
+    color: white;
+    background: #382338;
+    border-color: #ff0080;
+    font-weight: bold;
+    margin: 3px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.btn:hover {
+    background-color: white;
+    color:black;
+    background-color: #ff0080;
+    border-color: #19051a;
+    color:white;
+    font-size: 30px;
+}
+
+.calculator {
+    display: inline-block;
+    padding: 12px;
+    background: linear-gradient(to right, #140c43, #ff0080, #0a0098);
+    border-radius: 13px;
+    /* border: 5px solid black; */
+    /* box-shadow: #3b3538 2px 2px 2px; */
+    box-shadow: blue 8px 7px 12px 0px;
+
+
+}
+h1{
+    font-family: 'Lobster', cursive;
+    /* background:linear-gradient(to right , #ff0080,blue, #ff0080); */
+    /* color:white; */
+    padding: 12px;
+    margin: 22px;
+    font-size: 50px;
+}
+
+#one{
+    color:#04c0ef;
+    font-weight: bolder;
+
+}
+#name{
+    color:#ff0080;
+}
+#surname{
+    color:#0a0098;
+}
